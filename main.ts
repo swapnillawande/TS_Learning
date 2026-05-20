@@ -70,3 +70,34 @@ data = ${data}`;
 
 console.log(desc);
 
+// TypeScript object type
+
+let emp: object = {
+    name: "Demo",
+    id:11,
+    department: "HR"
+}
+
+console.log(emp);
+
+// To explicitly specify properties of the employee object, you first use the following syntax to declare the employee object
+
+
+let sampleEmp : {
+    name: string,
+    id: number,
+    department: string,
+    isPartTimeEmployee: boolean
+
+}
+
+
+sampleEmp = {
+    name: "Leo",
+    id: 12,
+    department: "dev",
+    isPartTimeEmployee: false
+
+}
+
+console.log(sampleEmp);
