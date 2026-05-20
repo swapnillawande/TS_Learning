@@ -101,3 +101,19 @@ sampleEmp = {
 }
 
 console.log(sampleEmp);
+
+// arrays type in ts
+
+let skills : string[] = ["Java"];
+
+skills.push("Typescript");
+skills.push("Python");
+
+console.log(skills);
+
+let mixedArrayType : (any)[] = [true, "Hello", 22.3];
+
+console.log(mixedArrayType);
+
+let intAndStringArray : (number | string)[] = [22.3, "String"]
+
