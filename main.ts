@@ -51,3 +51,22 @@ numBolStr =false;
 numBolStr = 1;
 
 numBolStr = "str";
+
+
+// bigint type
+let bigIntNum: bigint = 7943693321321313n;
+console.log(bigIntNum);
+
+
+// string type in TS
+
+let fullName: string = "Johnn Lei";
+console.log(fullName);
+
+let data = 12.32;
+let desc = `This is an
+sample data 
+data = ${data}`;
+
+console.log(desc);
+
